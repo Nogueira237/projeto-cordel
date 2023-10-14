@@ -1,10 +1,6 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Kalam&family=Passion+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kalam&family=Passion+One&family=Sriracha&display=swap');
-
-body{
-    margin: auto;
-}
 header {
     background-color: black;
     color: white;
@@ -15,8 +11,9 @@ header > h1{
     display: inline-block;
     font: normal;
     font-family: 'Passion one', serif;
-    font-size: 139px;
+    font-size: 10vw;
     margin: auto;
+    font-variant: small-caps;
 }
 header > aside{
     font-family: Verdana,Tahoma, sans-serif;
@@ -28,39 +25,37 @@ a{
     font-weight: bold;
 }
 main > section > p{
-    font: normal;
     font-family: 'Sriracha', serif;
-    font-size: 40px;
-    width: 500px;
     margin: 80px 30px;
     line-height: 2em;
+    font-size:3vw;
 }
 .imagem{
     background: black url(imagens/background001.jpg) center right no-repeat fixed  ;
     background-size: cover;
-    height: 700px;
+    height: 50vw;
+    padding-top: 50px;
 }
 section.imagem > p{
-    position: absolute;
+    display:inline-block;
     color: white;
-    background-color: rgba(0, 0, 0, 0.575);
-    width: 470px;
-    padding: 5px;
-    margin-left: 25px;
-    margin-top: 65px ;
+    background-color: rgba(0, 0, 0, 0.363);
+    text-shadow: 1px 1px 0px rgb(0, 0, 0);
+    margin-top: 3vh;
 }
 .imagem2{
     background: black url(imagens/background002.jpg) center right no-repeat fixed  ;
     background-size: cover;
-    height: 650px;
+    height: 50vw;
 }
 section.imagem2 > p{
     position: absolute;
     color: white;
-    background-color: rgba(0, 0, 0, 0.575);
-    width: 475px;
+    background-color: rgba(0, 0, 0, 0.397);
+    text-shadow: 1px 1px 0px rgb(0, 0, 0);
     margin-left: 25px;
-    margin-top: 50px;
+    margin-top: 45px;
+    padding: 5px;
 }
 footer{
     height: 3vh;
