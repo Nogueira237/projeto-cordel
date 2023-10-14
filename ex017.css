@@ -26,15 +26,15 @@ a{
 }
 main > section > p{
     font-family: 'Sriracha', serif;
-    margin: 80px 30px;
+    margin: 80px 10px;
     line-height: 2em;
     font-size:3vw;
 }
 .imagem{
     background: black url(imagens/background001.jpg) center right no-repeat fixed  ;
     background-size: cover;
-    height: 50vw;
-    padding-top: 50px;
+    height: 49vw;
+    padding: 5px;
 }
 section.imagem > p{
     display:inline-block;
@@ -46,16 +46,15 @@ section.imagem > p{
 .imagem2{
     background: black url(imagens/background002.jpg) center right no-repeat fixed  ;
     background-size: cover;
-    height: 50vw;
+    height: 49vw;
+    padding: 5px;
 }
 section.imagem2 > p{
-    position: absolute;
+    display:inline-block;
     color: white;
     background-color: rgba(0, 0, 0, 0.397);
     text-shadow: 1px 1px 0px rgb(0, 0, 0);
-    margin-left: 25px;
-    margin-top: 45px;
-    padding: 5px;
+    margin-top: 3vh;
 }
 footer{
     height: 3vh;
@@ -63,4 +62,5 @@ footer{
     background-color: black;
     text-align: center;
     font-family: Verdana,Tahoma, sans-serif;
+    margin: -8px
 }
